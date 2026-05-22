@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "motion/react";
+import brandLogo from "./assets/icon/logo_home.png";
 import {
   Heart,
   ShoppingBag,
@@ -275,12 +276,14 @@ export default function App() {
       <header className="sticky top-0 z-40 bg-[#FDF9EA]/90 backdrop-blur-md border-b border-[#FFD5E0]/40 transition-all">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
           {/* Logo Brand */}
-          <a href="#" className="flex items-center group">
-            <span className="font-brand text-3xl sm:text-4xl text-[#E84A6E] tracking-normal transform group-hover:scale-102 transition-all">
-              Bunny Lullaby
-            </span>
-          </a>
-
+            <a href="#" className="flex items-center gap-3 group">
+              <img 
+                src={brandLogo} 
+                alt="Bunny Lullaby Logo" 
+                className="h-16 sm:h-[72px] w-auto object-contain transform group-hover:scale-105 transition-all" 
+              />
+            </a>
+            
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-8 font-medium">
             <a
