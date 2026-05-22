@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import brandLogo from "./assets/icon/logo_home.png";
+import brandLogo from "./assets/icon/logo_brand.png";
 import {
   Heart,
   ShoppingBag,
@@ -1183,11 +1183,13 @@ export default function App() {
           {/* Brand Col */}
           <div className="md:col-span-4 space-y-4 text-center md:text-left">
             <div className="flex items-center gap-3 justify-center md:justify-start">
-              <span className="font-brand text-3xl text-[#FF8BA4] tracking-normal">
-                Bunny Lullaby
-              </span>
+              <img 
+                src={brandLogo} 
+                alt="Bunny Lullaby Logo" 
+                className="h-16 w-auto object-contain" 
+              />
             </div>
-            <p className="text-xs text-[#FFFDF2]/70 leading-relaxed max-w-sm">
+            <p className="text-xs text-[#FFFDF2]/70 leading-relaxed max-w-sm mx-auto md:mx-0">
               The leading sleep-therapy organic brand for infants, combining
               aromatherapy and natural sound care. Nurturing safe, sweet dreams
               from our hands to yours.
