@@ -1,0 +1,8 @@
+{
+  "name": "Bunny Lullaby",
+  "description": "Premium landing page for Bunny Lullaby teddy bear brand - Soft ritual for sweet dreams.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
