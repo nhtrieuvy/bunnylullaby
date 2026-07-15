@@ -29,9 +29,10 @@ import {
 } from "lucide-react";
 import { PRODUCTS, SOUNDS, TESTIMONIALS, FAQS } from "./data";
 import { Product, CartItem, SoundOption } from "./types";
-import heroImage from "./assets/images/hinh1.png";
-import classicRoseStoryImage from "./assets/images/hinh4.png";
-import buttercreamStoryImage from "./assets/images/hinh5.png";
+import heroImage from "./assets/images/pinkbunnygirl.jpg";
+import fiveBunnyHeroImage from "./assets/images/fivebunny.jpg";
+import classicRoseStoryImage from "./assets/images/brownbunnyboy.jpg";
+import buttercreamStoryImage from "./assets/images/whitebunnygirl.jpg";
 
 export default function App() {
   // Navigation & Responsiveness States
@@ -401,6 +402,38 @@ export default function App() {
 
       {/* HERO SECTION */}
       <section className="relative overflow-hidden pt-12 pb-20 md:py-24 lg:py-32 z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10 sm:mb-12 lg:mb-14">
+          <div className="-mx-4 sm:-mx-6 lg:-mx-8">
+            <div className="relative overflow-hidden rounded-none sm:rounded-[2rem] border-y sm:border border-[#FFD5E0]/60 bg-gradient-to-r from-[#FFFDFB] via-[#FFF7F0] to-[#FFE0EA] p-3 sm:p-4 shadow-[0_20px_50px_rgba(232,74,110,0.14)] backdrop-blur-sm">
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.92),transparent_30%),radial-gradient(circle_at_bottom_right,rgba(255,194,214,0.30),transparent_34%)]"></div>
+              <div className="absolute -left-10 top-6 bottom-6 w-44 rotate-[-2deg] rounded-[36px_54px_42px_58px/44px_42px_58px_56px] border border-white/90 bg-[#FFF4F7] shadow-[0_14px_30px_rgba(232,74,110,0.12)] sm:-left-6 sm:w-56"></div>
+              <div className="absolute left-0 top-4 bottom-4 w-[70%] rotate-[1deg] rounded-[32px] border border-white/90 bg-white/82 shadow-[0_18px_38px_rgba(61,45,49,0.10)]"></div>
+              <div className="absolute left-[12%] top-8 bottom-8 w-[60%] rotate-[-0.5deg] rounded-[30px] border border-[#FFD5E0]/50 bg-[#FFFDFB]/88 shadow-[0_10px_24px_rgba(232,74,110,0.08)]"></div>
+              <div className="absolute -right-12 top-8 bottom-10 w-48 rotate-[2deg] rounded-[58px_36px_52px_44px/50px_56px_40px_48px] border border-white/90 bg-[#FFE8EC] shadow-[0_14px_30px_rgba(255,185,203,0.16)] sm:-right-8 sm:w-60"></div>
+              <div className="absolute left-3 top-4 h-6 w-[30%] rounded-full bg-[#FFD5E0]/70 blur-xl"></div>
+              <div className="absolute right-3 bottom-4 h-6 w-[26%] rounded-full bg-[#FFB9CB]/45 blur-xl"></div>
+              <div className="absolute inset-x-0 top-0 h-[2px] bg-gradient-to-r from-transparent via-[#FF8BA4]/60 to-transparent"></div>
+              <div className="relative z-10 overflow-hidden rounded-none sm:rounded-[1.6rem] border border-white/90 bg-white/92 shadow-[0_10px_26px_rgba(61,45,49,0.10)]">
+                <img
+                  src={fiveBunnyHeroImage}
+                  alt="Five Bunny plush lineup"
+                  className="aspect-[21/7] w-full object-cover shadow-sm sm:aspect-[21/6] lg:aspect-[21/5]"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              <div className="relative z-10 mt-3 flex items-center justify-center gap-2 sm:justify-start">
+                <span className="inline-flex items-center rounded-full border border-[#FFD5E0] bg-white px-3 py-1 text-[10px] font-bold uppercase tracking-[0.22em] text-[#E84A6E] shadow-xs sm:text-[11px]">
+                  Sweet Dream Collection
+                </span>
+                <span className="hidden sm:inline-flex h-1.5 w-1.5 rounded-full bg-[#FF8BA4]"></span>
+                <span className="hidden sm:inline-flex text-[11px] font-semibold uppercase tracking-[0.16em] text-[#3D2D31]/65">
+                  A cozy lineup of dreamy companions
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           {/* Text panel */}
           <div className="lg:col-span-7 space-y-8 text-center lg:text-left">

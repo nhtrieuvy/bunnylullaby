@@ -1,12 +1,12 @@
 import { Product, SoundOption, Testimonial } from "./types";
-import classicRoseImage from "./assets/images/hinh2.png";
-import buttercreamImage from "./assets/images/hinh3.png";
-import lavenderImage from "./assets/images/hinh6.png";
+import classicRoseImage from "./assets/images/graybunny.jpg";
+import buttercreamImage from "./assets/images/beigebunny.jpg";
+import lavenderImage from "./assets/images/pinkbunny.jpg";
 
 export const PRODUCTS: Product[] = [
   {
     id: "bunny-rose",
-    name: "Classic Rose Lullaby",
+    name: "Toffee Bunny Lullaby",
     subName: "Classic Pink Blossom Plush",
     description: "An exquisite blend of ultra-soft organic fleece and natural calming lavender essence woven gently inside.",
     longDescription: "Our signature and beloved Bunny Lullaby companion. Lovingly hand-crafted using 100% certified organic anti-allergetics and premium recycled materials. Tucked deep within is a removable sachet of dried organic French lavender that releases a soothing sleep aroma whenever baby cuddles their bunny, helping establish a natural and calm deep sleep ritual.",
@@ -29,7 +29,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "bunny-buttercream",
-    name: "Buttercream Cotton Cloud",
+    name: "Mallow Bunny Lullaby",
     subName: "Infant Companion Scented Plush",
     description: "Woven from supreme organic hand-picked cotton with a soothing vanilla-milk scent to ease infant tension.",
     longDescription: "Specially designed for the most delicate and sensitive skin of newborns. The Buttercream bunny is dressed in raw, unbleached organic plant fibers. Gently infused with a warm, comforting vanilla cream aroma, it rebuilds the secure comforting feelings of a mother's warm embrace.",
@@ -52,7 +52,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "bunny-lavender",
-    name: "Midnight Lavender Bliss",
+    name: "Berry Bunny Lullaby",
     subName: "Peaceful Glow-in-the-Dark Guardian",
     description: "A soft pastel lilac fleece paired with custom bio-luminescent embroidery and sweet chamomile notes.",
     longDescription: "The ultimate nighttime guardian designed for toddlers experiencing fear of the dark or night terrors. In addition to a sweet aromatherapy heart with calming lavender & sweet chamomile, it features subtle glow-in-the-dark stars that radiate a soft, reassuring celestial glow to soothe infants.",
